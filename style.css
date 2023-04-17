@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('lse-library-S6G1Iw7PRFQ-unsplash.jpg');
+    font-family: 'Nunito', sans-serif;
+    height: auto;
+}
+
+/* ----------Navbar--------- */
+.navbar-nav {
+    margin-left: auto;
+}
+
+/* .logo {
+    width: 7vw;
+    height: 10vh;
+} */
+
+.nav-link {
+    margin-right: 3vw;
+    font-size: 1.4rem;
+    color: aliceblue;
+    font-family: 'Xanh Mono', monospace;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    margin-right: 3vw;
+    color: pink;
+}
+
+.con-us {
+    font-size: 1.3rem;
+    font-family: 'Xanh Mono', monospace;
+}
+
+/* ----------Caorusel--------- */
+
+.c1 {
+    font-family: 'Kolker Brush', cursive;
+}
+
+.c2 {
+    font-size: 10rem;
+    color: peachpuff;
+}
+
+.c3 {
+    margin-top: 0;
+    margin-left: 13vh;
+    font-size: 8rem;
+}
+
+/* ----------Deals--------- */
+.deals {
+    font-family: 'Lora', serif;
+    display: inline;
+    margin: 0 5px;
+}
+
+.hover:hover {
+    /* cursor: pointer; */
+    height: 38vh;
+    transition: height 0.2s;
+}
+
+/* ----------Shop--------- */
+.shops:hover {
+    cursor: pointer;
+}
+
+/* ----------Services--------- */
+
+/* ----------Footer--------- */
+.iconss {
+    color: white;
+}
+
+#fb:hover {
+    color: lightblue;
+}
+
+#insta:hover {
+    color: lightpink;
+}
+
+#tw:hover {
+    color: lightskyblue;
+}
+
+#yt:hover {
+    color: lightcoral;
+}
+
+@media only screen and (max-width:450px) {
+    .c2{
+        font-size: 4rem;
+    }
+    .c3{
+        font-size: 5rem;
+        margin-left: 0;
+    }
+}
